@@ -5,12 +5,15 @@
 В качестве вступления, приведу несколько цитат о языке C++:
 
 * Writing in C or C++ is like running a chain saw with all the safety guards removed.
+
 (Bob Gray of consulting firm Virtual Solutions; cited in Byte (1998) Vol 23, Nr 1-4. p. 70)
 
 * C gives the programmer what the programmer wants; few restrictions, few complaints... C++ maintains the original spirit of C, that the programmer not the language is in charge.
+
 (Herbert Schildt (2002) C++: The Complete Reference, 4th Edition. p. 8)
 
 * In C++ it's harder to shoot yourself in the foot, but when you do, you blow off your whole leg.
+
 (Bjarne Stroustrup "Stroustrups FAQ" research.att.com; Cited in: Charles R. Hardnett (2011) Programming Like a Pro for Teens. p. 295)
 
 ### Типы памяти
@@ -237,7 +240,9 @@ delete[] matrix;
 * Далее цикл с красивым выводом. В итоге в консоли вы увидите это
 
 0 1 2 
+
 1 2 3 
+
 2 3 4
 
 * Время удаления. Допустим, вы не удалили в цикле каждый массив, а оставили только последнюю строку. Попробуйте после такого заполучить `matrix[2][2]`, а потом обдумайте, что пошло не так.
